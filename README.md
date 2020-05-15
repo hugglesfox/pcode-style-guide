@@ -120,7 +120,7 @@ If module output is to be used it must be defined to a variable (see the variabl
 ```
 // Define the module Hello()
 Hello(name, age)
-    DISPLAY "Hello my name is " + name + "and I am aged" + age
+    DISPLAY "Hello my name is " + name + " and I am aged " + age
 END
 
 Main()
