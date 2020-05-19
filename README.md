@@ -8,7 +8,9 @@ This is not designed to teach pseudocode but rather define some best practices i
 
 ## Comments
 
-Comments are marked by a `//` at the start of the line. Inline comments should be defined 2 spaces after the line of code.
+Comments are marked by a `//` at the start of the line and have a space between the `//` and the start of the comment. 
+
+Inline comments should be defined 2 spaces after the line of code.
 
 ### Example
 
