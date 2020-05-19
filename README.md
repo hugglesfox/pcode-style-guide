@@ -54,6 +54,7 @@ Module(a,b,c)
 // Even more bad
 [ a, b, c ]
 Module( a, b, c )
+Module (a, b, c)
 ```
 
 ## Strings
