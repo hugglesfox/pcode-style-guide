@@ -18,6 +18,9 @@ Inline comments should be defined 2 spaces after the line of code.
 // This is a comment
 
 x = 1  // This is an inline comment.
+
+//Please don't do this. Put a space between the // and the P.
+
 ```
 
 ## Operators
