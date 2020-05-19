@@ -78,8 +78,13 @@ Booleans should be capitalised.
 ### Example
 
 ```
+// Good
 True
 False
+
+// Bad
+true
+false
 ```
 
 ## Variables
@@ -89,8 +94,13 @@ Variables are defined using the `=` operator and should use snake case.
 ### Example
 
 ```
+// Good
 x = 1
 method_output = ModuleName()
+
+// Bad
+x=1
+method_output=ModuleName()
 ```
 
 ## Builtins
@@ -136,6 +146,14 @@ END
 Main()
   Hello("Hayden", 18)  // call the module Hello() with the parameters Hayden and 18
 END
+
+// Do NOT do the following
+image = take picture
+
+// or
+Hello (name, age) {
+  DISPLAY("Hello my name is " + name + " and I am aged " + age)
+} 
 ```
 
 ## Scope
