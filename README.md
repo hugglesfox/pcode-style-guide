@@ -38,7 +38,7 @@ a!=b
 
 ## Comma separated values
 
-Spaces should be after the comma in all comma separated values.
+Spaces should be after the comma in all comma separated values. Do not put spaces before commas or immediately inside parentheses, brackets or braces.
 
 ### Example
 
@@ -50,6 +50,10 @@ Module(a, b, c)
 // Bad
 [a,b,c]
 Module(a,b,c)
+
+// Even more bad
+[ a, b, c ]
+Module( a, b, c )
 ```
 
 ## Strings
