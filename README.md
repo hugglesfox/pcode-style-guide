@@ -169,7 +169,6 @@ Possible `END` statements include:
   - `ENDIF`
   - `ENDDO`
   - `ENDWHILE`
-  - `ENDFOR`
 
 ### Example
 
