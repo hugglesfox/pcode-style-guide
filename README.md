@@ -168,13 +168,13 @@ ENDIF
 
 where `THEN` marks the end of the condition and `END` marks the end of the scope of the `IF` statement.
 
-An example of `IF` which doubles a number if the number is greater then 1 could be
+An example of an `IF` statement which displays the text `FIZZ` when a number is a multiple of 3 would be
 
 ```
 x = READ "Enter a number: "  // Read a number from user input
 
-IF x > 1 THEN  // Check to see if the inputted number is greater then 1
-    x = x * 2  // Double x
+IF x % 3 == 0 THEN  // Check to see if the inputted number is greater then 1
+    DISPLAY "FIZZ"  // Double x
 ENDIF
 ```
 
