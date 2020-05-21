@@ -75,7 +75,9 @@ x[0]  // Returns "Hello"
 
 ### 2.8. A note on type casting
 
-Automatic.
+Type casting in nickcode is done transparently where required based on assumptions made about the type in the context of when it is used (this is a variation of pseudocode).
+
+For an example a string to integer conversion will be done when required, such as when a string containing a number and an integer is compared then the string of the number will be convert
 
 ## 3. Operators
 
