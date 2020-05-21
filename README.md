@@ -1,6 +1,6 @@
 # The Non Definitive Guide to the Wonders of NickCode
 
-This is a living document which aims to be the best guide possible to the pseudocode flavour created by Dr Nick Patterson for SIT105 (which will be referred to as nickcode for the rest of the document). This document is not officially endorsed by Dr Patterson therefore **use at own risk** but with the amount of confusion around how nickcode and the ambiguity of the Assignment 3 marking rubric, we thought that a formal definition of nickcode was required. Inspiration for the following guide has been taken from Dr Patterson's Cloud practicals and lectures as well as the Python and Rust programming languages.
+This is a living document which aims to be the best guide possible to the pseudocode flavour created by Dr Nick Patterson for SIT105 (which will be referred to as nickcode for the rest of the document). This document is not officially endorsed by Dr Patterson therefore **use at own risk** but with the amount of confusion around nickcode and the ambiguity of the Assignment 3 marking rubric, we thought that a formal definition of nickcode was required. Inspiration for the following guide has been taken from Dr Patterson's Cloud practicals and lectures as well as the Python and Rust programming languages.
 
 ## Contents
 
@@ -27,7 +27,7 @@ Types are data structures used to hold various different representations of data
 
 ### 2.1. Strings
 
-Strings are a data structure which contain one or more characters. Strings are defined by surround characters in either single or double quotation marks such as follows
+Strings are a data structure which contain one or more characters. Strings are defined by surround characters in either single or double quotation marks as long as the use of single or double quotation marks is consistent throughout the code.
 
 ```
 "This is a string"
