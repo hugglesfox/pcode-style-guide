@@ -207,9 +207,41 @@ ELSEIF x % 5 == 0 THEN
 ENDIF
 ```
 
-Here if 3 is inputted, `FIZZ` will be displayed, if 5 is inputted then `BUZZ` will be displayed and if 16 is inputted then `FIZZBUZZ` is displayed.
+Here if 3 is inputted, `FIZZ` will be displayed, if 5 is inputted then `BUZZ` will be displayed and if 15 is inputted then `FIZZBUZZ` is displayed.
 
 ### 7.6. ELSE
+
+The `ELSE` builtin is used to run code when ever the above `IF` or `ELSEIF` statements fail.
+
+```
+IF condition THEN
+    // Code here is ran if condition evaluates to true.
+ELSEIF another_condition THEN
+    // Code here is ran if the condition evaluates to false but
+    // another_condition evaluates to true
+ELSE
+    // Code there is ran both condition and another_condition evaluate
+    // to false above
+ENDIF
+```
+
+Continuing on the previous examples, if the inputted number is not a multiple of 5 or a multiple of 3 then display the number
+
+```
+x = READ "Enter a number: "  // Read a number from user input
+
+IF x % 3 == 0 AND x % 5 == 0 THEN
+    DISPLAY "FIZZBUZZ"
+ELSEIF x % 3 == 0 THEN
+    DISPLAY "FIZZ"
+ELSEIF x % 5 == 0 THEN
+    DISPLAY "BUZZ"
+ELSE
+    DISPLAY x
+ENDIF
+```
+
+So if 3 is inputted, `FIZZ` will be displayed, if 5 is inputted then `BUZZ` will be displayed and if 15 is inputted then `FIZZBUZZ` is displayed but if 7 is inputted then `7` is outputted.
 
 ### 7.7. CASE
 
