@@ -182,7 +182,7 @@ Here if `x` equalled 15 then `FIZZBUZZ` will be displayed but if 3 or 5 were inp
 
 ### 7.5. ELSEIF
 
-The `ELSEIF` builtin is appended to and `IF` in order to preform further operations if the condition of the above if fails (is false). `ELSEIF` has a similar syntax to the `IF` statement. `ELSEIF` statemnts cab
+The `ELSEIF` builtin is appended to an `IF` in order to preform further operations if the condition of the above if fails (is false). `ELSEIF` has a similar syntax to the `IF` statement. `ELSEIF` statemnts cab
 
 ```
 IF condition THEN
