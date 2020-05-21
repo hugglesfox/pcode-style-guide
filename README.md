@@ -6,13 +6,21 @@ This is a living document which aims to be the best guide possible to the pseudo
 
 1. [Comments](#1-Comments)
 2. [Types](#2-Types)
+
 	2.1. [Strings](#21-Strings)
+	
 	2.2. [Integers](#22-Integers)
+	
 	2.3. [Floating point integers](#23-Floating-point-integers)
+	
 	2.4. [Booleans](#24-Booleans)
+	
 	2.5. [Tuples](#25-Tuples)
+	
 	2.6. [Arrays](#26-Arrays)
+	
 	2.7. [Hashmaps (Dictionaries)](#27-Hashmaps-Dictionaries)
+	
 	2.8. [A note on type casting](#28-A-note-on-type-casting)
 3. [Operator](#3-Operators)
 	3.1. [Integer operations](#31-Integer-operations)
