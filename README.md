@@ -58,6 +58,17 @@ False
 
 ### 2.5. Tuples
 
+Tuples are non mutable, comma separated lists defined by parenthesis. Tuple elements can be referenced using `tuple[i]` where `i` is the index of the element starting from 0. When defining a tuple always put a space after the comma and don't use extraneous spaces.
+
+```
+x = ("Hello", "World")
+x[0]  // Returns "Hello"
+
+// Don't defines tuples like this
+("Hello","World")  // Need space after comma
+( "Hello" , "World" )  // Too much white space
+```
+
 ### 2.6. Arrays
 
 ### 2.7. Hashmaps (Dictionaries)
