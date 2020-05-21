@@ -98,6 +98,8 @@ Automatic.
 
 #### 3.3.2. OR
 
+#### 3.3.1. Negation
+
 ## 4. Variables
 
 ## 5. Scope
