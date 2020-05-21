@@ -120,7 +120,7 @@ Built in modules should be capitalised and do not use parenthesis to pass argume
 
 ### 7.1. DISPLAY
 
-The `DISPLAY` builtin writes text to the display or console.
+The `DISPLAY` builtin writes a string to the display or console.
 
 ```
 DISPLAY "Hello World"
@@ -129,6 +129,14 @@ DISPLAY "Hello World"
 Will write `Hello World` to the console.
 
 ### 7.2. PRINT
+
+The `PRINT` builtin writes a string to a printer. This is primarily used for interfacing with a [teleprinter](https://en.wikipedia.org/wiki/Teleprinter)
+
+```
+PRINT "Why are you using a printer in 2020?"
+```
+
+Will print a page with the text `Why are you using a printer in 2020?`.
 
 ### 7.3. READ
 
