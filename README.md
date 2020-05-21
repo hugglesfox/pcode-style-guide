@@ -94,6 +94,10 @@ Indentaion
 
 > NOTE for writers: Make a note on how cohesion actually works and why having a million modules is a bad idea.
 
+### 6.2. Arguments
+
+### 6.1. RETURN
+
 ## 7. Builtins
 
 ### 7.1. DISPLAY
