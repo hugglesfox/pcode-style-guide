@@ -168,8 +168,6 @@ ENDIF
 
 where `THEN` marks the end of the condition and `END` marks the end of the scope of the `IF` statement.
 
-Make sure to remember to include `THEN` and `ENDIF`!
-
 An example of `IF` which doubles a number if the number is greater then 1 could be
 
 ```
