@@ -135,3 +135,7 @@ Indentaion
 It is not required to cite this document if you wish to reference it for your assignment 3 but if you appreciate the work we would kindly ask you to include the following sentence in your assignment:
 
 > The pseudocode provided has been created with reference to [The Non Definitive Guide to the Wonders of NickCode](https://github.com/hugglesfox/pcode-style-guide)
+
+## 10. Contributing
+
+This guide is a living document. If you wish to add to it or modify it at all then please feel free to make a pull request. Your contributions will always be warmly welcome.
