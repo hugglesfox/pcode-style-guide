@@ -158,7 +158,27 @@ Here the contents a readable thing (such as a file) called `file_path` is writte
 
 ### 7.4. IF
 
+The `IF` builtin checks whether a condition is true and only then will it run the resulting code in the form
 
+```
+IF condition THEN
+    // Code here is ran if condition evaluates to true.
+ENDIF
+```
+
+where `THEN` marks the end of the condition and `END` marks the end of the scope of the `IF` statement.
+
+Make sure to remember to include `THEN` and `ENDIF`!
+
+An example of `IF` which doubles a number if the number is greater then 1 could be
+
+```
+x = READ "Enter a number: "  // Read a number from user input
+
+IF x > 1 THEN  // Check to see if the inputted number is greater then 1
+    x = x * 2  // Double x
+ENDIF
+```
 
 ### 7.5. ELSEIF
 
