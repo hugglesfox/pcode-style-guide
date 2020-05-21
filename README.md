@@ -108,7 +108,7 @@ Indentaion
 
 ### 7.4. IF
 
-### 7.5. ELSE IF
+### 7.5. ELSEIF
 
 ### 7.6. ELSE
 
