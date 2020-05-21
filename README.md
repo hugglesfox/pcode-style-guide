@@ -168,17 +168,46 @@ ENDIF
 
 where `THEN` marks the end of the condition and `END` marks the end of the scope of the `IF` statement.
 
-An example of an `IF` statement which displays the text `FIZZ` when a number is a multiple of 3 would be
+An example of an `IF` statement which displays the text `FIZZBUZZ` when a number is a multiple of 3 and a multiple of 5 would be
 
 ```
 x = READ "Enter a number: "  // Read a number from user input
 
-IF x % 3 == 0 THEN  // Check to see if the inputted number is greater then 1
-    DISPLAY "FIZZ"  // Double x
+IF x % 3 == 0 AND x % 5 == 0 THEN
+    DISPLAY "FIZZBUZZ"
 ENDIF
 ```
 
+Here if `x` equalled 15 then `FIZZBUZZ` will be displayed but if 3 or 5 were inputted then nothing will be displayed.
+
 ### 7.5. ELSEIF
+
+The `ELSEIF` builtin is appended to and `IF` in order to preform further operations if the condition of the above if fails (is false). `ELSEIF` has a similar syntax to the `IF` statement. `ELSEIF` statemnts cab
+
+```
+IF condition THEN
+    // Code here is ran if condition evaluates to true.
+ELSEIF another_condition THEN
+    // Code here is ran if the condition evaluates to false but
+    // another_condition evaluates to true
+ENDIF
+```
+
+An example of a `ELSEIF` which displays the text `BUZZ` if a number is a multiple of 5 or `FIZZ` if the number is a multiple of 3 would be
+
+```
+x = READ "Enter a number: "  // Read a number from user input
+
+IF x % 3 == 0 AND x % 5 == 0 THEN
+    DISPLAY "FIZZBUZZ"
+ELSEIF x % 3 == 0 THEN
+    DISPLAY "FIZZ"
+ELSEIF x % 5 == 0 THEN
+    DISPLAY "BUZZ"
+ENDIF
+```
+
+Here if 3 is inputted, `FIZZ` will be displayed, if 5 is inputted then `BUZZ` will be displayed and if 16 is inputted then `FIZZBUZZ` is displayed.
 
 ### 7.6. ELSE
 
