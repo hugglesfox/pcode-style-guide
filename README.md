@@ -1,18 +1,16 @@
-# SIT105 Pseudocode Style Guide
+# The Non Definitive Guide to NickCode
 
-> **Please note that this document is only a guide and there is zero guarantee that Nick will actually accept this style guide (but it's better then nothing). This not a conclusive guide. USE AT OWN RISK.**
+This is a living document which aims to be the best guide possible to the pseudocode flavour created by Dr Nick Patterson for SIT105 (which will be referred to as nickcode for the rest of the document). This document is not officially endorsed by Dr Patterson therefore **use at own risk** but with the amount of confusion around how nickcode and the ambiguity of the Assignment 3 marking rubric, we thought that a formal definition of nickcode was required. Inspiration for the following guide has been taken from Dr Patterson's Cloud practicals and lectures as well as the Python and Rust programming languages.
 
-This document defines a set of styling guidelines which should be used in order to make pseudocode more consistent and readable. Inspiration for the following rules has been taken from the SIT105 lectures, Nick's Cloud practical, the Python Enhancement Proposal 8 and the Rust Style Guide.
+## Contents
 
-This is not designed to teach pseudocode but rather define some best practices in terms of presentation of pseudocode for SIT105 assessment 3.
+// TODO
 
-## Comments
+## 1. Comments
 
-Comments are marked by a `//` at the start of the line and have a space between the `//` and the start of the comment. 
+A comment is a line of text which is marked by a `//` at the start of the line which is used for making notes about your code without affecting the algorithm in any way. Comments should have a space between the `//` and the start of the comment.
 
 Inline comments should be defined 2 spaces after the line of code.
-
-### Example
 
 ```
 // This is a comment
@@ -23,164 +21,113 @@ x = 1  // This is an inline comment.
 
 ```
 
-## Operators
+## 2. Types
 
-Spaces should be present around all operators.
+Types are data structures used to hold various different representations of data.
 
-### Example
+### 2.1. Strings
 
-```
-// Good
-a == a
-a != b
-
-// Bad
-a==a
-a!=b
-```
-
-## Comma separated values
-
-Spaces should be after the comma in all comma separated values. Do not put spaces before commas or immediately inside parentheses, brackets or braces.
-
-### Example
-
-```
-// Good
-[a, b, c]
-Module(a, b, c)
-
-// Bad
-[a,b,c]
-Module(a,b,c)
-
-// Even more bad
-[ a, b, c ]
-[ a , b , c ]
-Module( a, b, c )
-Module (a, b, c)
-```
-
-## Strings
-
-String should be defined with either single or double quotations as long as the use of either single or double quotations is consistent throughout the code.
-
-### Example
+Strings are a data structure which contain one or more characters. Strings are defined by surround characters in either single or double quotation marks such as follows
 
 ```
 "This is a string"
 'This is also a string'
+
+'This is not a string as the quotation marks used to wrap the text are not the same"
 ```
 
-## Booleans
+### 2.2. Integers
 
-Booleans should be capitalised.
+### 2.3. Floating point integers
 
-### Example
+### 2.4. Booleans
 
-```
-// Good
-True
-False
+### 2.5. Tuples
 
-// Bad
-true
-false
-```
+### 2.6. Arrays
 
-## Variables
+### 2.7. Hashmaps (Dictionaries)
 
-Variables are defined using the `=` operator and should use snake case.
+### 2.8. A note on type casting
 
-### Example
+Automatic.
 
-```
-// Good
-x = 1
-method_output = ModuleName()
+## 3. Operators
 
-// Bad
-x=1
-method_output=ModuleName()
-```
+### 3.1. Integer operations
 
-## Builtins
+#### 3.1.1. Addition
 
-Built in modules should be capitalised and do not use parenthesis to pass argument unlike user defined modules although parenthesis may be used in some situations where it evaluates to a boolean in order to improve visual grepping.
+#### 3.1.2. Subtraction
 
-Builtins can also magically create variables (don't ask questions, it's somehow common).
+#### 3.1.3. Multiplication
 
-Possible builtins include:
+#### 3.1.4. Division
 
-  - `DISPLAY`
-  - `PRINT`
-  - `WRITE`
-  - `READ`
-  - `IF`
-  - `WHILE`
-  - `RETURN`
+#### 3.1.5. Powers
 
-### Example
+#### 3.1.6. Equivalent
 
-```
-DOWHILE (READ line IN file SUCCEEDS)
-    DISPLAY line
-ENDDO
-```
+#### 3.1.6. Greater then and Less then
 
-## Modules
+### 3.2. String operations
 
-Modules should use capitalised word casing and be defined before use. A module definition ends when an `END` statement is reached.
+#### 3.2.1. Concatenation (Addition)
 
-Arguments can be passed to a in the parenthesis when defined and called, where empty parenthesis signals no arguments. A user defined module should always be followed by parenthesis when called and defined.
+#### 3.2.2. Multiplication
 
-If module output is to be used it must be defined to a variable (see the variable examples for an example). User defined modules cannot magically create variables such as Builtins.
+#### 3.2.3. Equivalent
 
-### Example
+### 3.3. Boolean Logic
 
-```
-// Define the module Hello()
-Hello(name, age)
-    DISPLAY "Hello my name is " + name + " and I am aged " + age
-END
+#### 3.3.1. AND
 
-Main()
-  Hello("Hayden", 18)  // call the module Hello() with the parameters Hayden and 18
-END
+#### 3.3.2. OR
 
-// Do NOT do the following
-image = take picture
+## 4. Variables
 
-// or
-Hello (name, age) {
-  DISPLAY("Hello my name is " + name + " and I am aged " + age)
-} 
-```
+## 5. Scope
 
-## Scope
+Indentaion
 
-Scope is defined using an `END` statements. `END` statements vary depending on what scope they define.
+## 6. Modules
 
-Scope is also signified through an indentation of multiples of 4 spaces to improve visual grepping.
+> NOTE for writers: Make a note on how cohesion actually works and why having a million modules is a bad idea.
 
-Possible `END` statements include:
+## 7. Builtins
 
-  - `END`
-  - `ENDIF`
-  - `ENDDO`
-  - `ENDWHILE`
+### 7.1. DISPLAY
 
-### Example
+### 7.2. PRINT
 
-```
-WHILE True DO  // WHILE scope starts here
-    // This code is in the scope of the WHILE loop
-    PRINT "Hello World"
-ENDWHILE  // WHILE scope ends here
+### 7.3. READ
 
-x = 1  // This code is out of the scope of the WHILE loop
-```
+### 7.4. IF
 
-## Contributing
+### 7.5. ELSE IF
 
-This style guide is a living document. If you wish to add or modify it at all then please feel free to make a pull request.
+### 7.6. ELSE
+
+### 7.7. CASE
+
+> NOTE for writers: Do you think we could get away with ditching DOWHILE and DO for just WHILE and FOR?
+
+### 7.8. WHILE
+
+### 7.9. DOWHILE
+
+### 7.10. DO
+
+### 7.11. OPEN/CLOSE
+
+### 7.12. Main()
+
+## 8. Objects?
+
+> NOTE for writers: Do we want objects? I'm thinking just to keep it flat like C.
+
+## x. Citing
+
+It is not required to cite this document if you wish to reference it for your assignment 3 but if you appreciate the work we would kindly ask you to include the following sentence in your assignment:
+
+> The pseudocode provided has been created with reference to [The Non Definitive Guide to NickCode](https://github.com/hugglesfox/pcode-style-guide/tree/nickcode)
