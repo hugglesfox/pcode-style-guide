@@ -130,7 +130,7 @@ Will write `Hello World` to the console.
 
 ### 7.2. PRINT
 
-The `PRINT` builtin writes a string to a printer. This is primarily used for interfacing with a [teleprinter](https://en.wikipedia.org/wiki/Teleprinter)
+The `PRINT` builtin writes a string to a printer. This is primarily used for interfacing with [teleprinters](https://en.wikipedia.org/wiki/Teleprinter).
 
 ```
 PRINT "Why are you using a printer in 2020?"
