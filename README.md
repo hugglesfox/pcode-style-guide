@@ -56,7 +56,6 @@ TRUE
 FALSE
 ```
 
-
 ### 2.5. Tuples
 
 ### 2.6. Arrays
@@ -114,6 +113,8 @@ Indentaion
 ### 6.1. RETURN
 
 ## 7. Builtins
+
+Built in modules should be capitalised and do not use parenthesis to pass arguments unlike user defined modules.
 
 ### 7.1. DISPLAY
 
