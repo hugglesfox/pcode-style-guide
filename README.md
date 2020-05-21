@@ -68,7 +68,7 @@ Automatic.
 
 #### 3.1.6. Equivalent
 
-#### 3.1.6. Greater then and Less then
+#### 3.1.7. Greater then and Less then
 
 ### 3.2. String operations
 
@@ -126,7 +126,7 @@ Indentaion
 
 > NOTE for writers: Do we want objects? I'm thinking just to keep it flat like C.
 
-## x. Citing
+## 9. Citing
 
 It is not required to cite this document if you wish to reference it for your assignment 3 but if you appreciate the work we would kindly ask you to include the following sentence in your assignment:
 
