@@ -4,7 +4,41 @@ This is a living document which aims to be the best guide possible to the pseudo
 
 ## Contents
 
-// TODO
+1. [Comments](#1-Comments)  
+2. [Types](#2-Types)  
+	2.1. [Strings](#21-Strings)  
+	2.2. [Integers](#22-Integers)  
+	2.3. [Floating point integers](#23-Floating-point-integers)  
+	2.4. [Booleans](#24-Booleans)  
+	2.5. [Tuples](#25-Tuples)  
+	2.6. [Arrays](#26-Arrays)  
+	2.7. [Hashmaps (Dictionaries)](#27-Hashmaps-Dictionaries)  
+	2.8. [A note on type casting](#28-A-note-on-type-casting)  
+3. [Operator](#3-Operators)  
+	3.1. [Integer operations](#31-Integer-operations)  
+	3.2. [String operations](#32-String-operations)  
+	3.3. [Boolean Logic](#33-Boolean-Logic)  
+4. [Variables](#4-Variables)  
+5. [Scope](#5-Scope)  
+6. [Modules](#6-Modules)  
+	6.2. [Arguments](#62-Arguments)  
+	6.1. [RETURN](#61-RETURN)  
+7. [Builtins](#7-Builtins)  
+	7.1. [DISPLAY](#71-DISPLAY)  
+	7.2. [PRINT](#72-PRINT)  
+	7.3. [READ](#73-READ)  
+	7.4. [IF](#74-IF)  
+	7.5. [ELSEIF](#75-ELSEIF)  
+	7.6. [ELSE](#76-ELSE)  
+	7.7. [CASE](#77-CASE)  
+	7.8. [WHILE](#78-WHILE)  
+	7.9. [DOWHILE](#79-DOWHILE)  
+	7.10. [DO](#710-DO)  
+	7.11. [OPEN/CLOSE](#711-OPENCLOSE)  
+	7.12. [Main()](#712-Main())  
+8. [Objects?](#8-Objects)  
+9. [Citing](#9-Citing)  
+10. [Contributing](#10-Contributing)
 
 ## 1. Comments
 
