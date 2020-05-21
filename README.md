@@ -68,37 +68,182 @@ Automatic.
 
 ## 3. Operators
 
+Operators are used to manipulate variables. All operators should be spaced out for readability and compliance.
+
+```
+// Good
+x = 1 + 1
+
+// Bad
+x=1+1
+```
+
 ### 3.1. Integer operations
+
+Integer operations is a fancy word for maths.
 
 #### 3.1.1. Addition
 
+```
+x = 1 + 1  // x returns 2
+```
+
 #### 3.1.2. Subtraction
+
+```
+x = 2 - 1  // x returns 1
+```
 
 #### 3.1.3. Multiplication
 
+```
+x = 2 * 2  // x returns 4
+```
+
 #### 3.1.4. Division
 
-#### 3.1.5. Powers
+```
+x = 4 / 2  // x returns 2
+```
 
-#### 3.1.6. Equivalent
+#### 3.1.5. Modulo
 
-#### 3.1.7. Greater then and Less then
+Modulo returns the remainder of a division operation.
+
+```
+x = 5 % 4  // x returns 1
+```
+
+#### 3.1.6. Powers
+
+The syntax of powers does not have a space between operators.
+
+```
+x = 2^2  // x returns 4
+```
+
+#### 3.1.7. Equivalent
+
+An `==` operator checks if the two values are the same and returns a Boolean.
+
+```
+1 == 1  // Returns TRUE
+
+1 == 2  // Returns FALSE
+```
+
+An `!=` operator checks if the two values are different and returns a Boolean.
+
+```
+1 != 1  // Returns FALSE
+
+1 != 2  // Returns TRUE
+```
+
+#### 3.1.8. Greater then and Less then
+
+A `>` operator checks if the value on the left is greater than the value on the right.
+
+```
+2 > 1  // Returns TRUE
+
+1 > 2  // Returns FALSE
+```
+
+A `<` operator checks if the value on the left is less than the value on the right.
+
+```
+1 < 2  // Returns TRUE
+
+2 < 1  // Returns FALSE
+```
 
 ### 3.2. String operations
 
+Manipulate strings using operators.
+
 #### 3.2.1. Concatenation (Addition)
 
-#### 3.2.2. Multiplication
+Uses the `+` operator to combine two strings into one. Remember to include spacing as it just combines the content of the strings.
 
-#### 3.2.3. Equivalent
+```
+PRINT "Hello " + "World"  // Returns "Hello World"
+
+PRINT "Hello" + "World"  // Returns "HelloWorld"
+```
+
+Variables can also be concatenated into strings with this method.
+
+```
+x = "World"
+PRINT "Hello " + x  // Returns "Hello World"
+
+x = 1 + 1
+PRINT "1 + 1 = " + x  // Returns "1 + 1 = 2"
+```
+
+#### 3.2.2. Equivalent
+
+An `==` operator checks if the two strings are the same and returns a Boolean.
+
+```
+"foo" == "foo"  // Returns TRUE
+
+"foo" == "bar"  // Returns FALSE
+```
+
+You can also use a `!=` operator to check if the two strings are different and return a Boolean.
+
+```
+"foo" != "bar"  // Returns TRUE
+
+"foo" != "foo"  // Returns FALSE
+```
 
 ### 3.3. Boolean Logic
 
+Boolean logic has two states, TRUE and FALSE. Boolean states can be combined with logic to output another state.
+
 #### 3.3.1. AND
+
+The AND operator requires both Booleans on each side to return TRUE to return TRUE.
+
+```
+TRUE AND TRUE  // Returns TRUE
+
+TRUE AND FALSE  // Returns FALSE
+
+FALSE AND FALSE  // Returns FALSE
+
+1 == 1 AND 2 > 1  // Returns TRUE
+```
 
 #### 3.3.2. OR
 
-#### 3.3.1. Negation
+The OR operator only requires one Boolean to be TRUE to return TRUE.
+
+```
+TRUE OR TRUE  // Returns TRUE
+
+TRUE OR FALSE  // Returns TRUE
+
+FALSE OR FALSE  // Returns FALSE
+
+1 == 1 OR 1 > 2  // Returns TRUE
+```
+
+#### 3.3.1. NOT
+
+The NOT operator reverses a Boolean value, so a TRUE becomes FALSE and FALSE becomes TRUE.
+
+```
+NOT TRUE  // Returns FALSE
+
+NOT FALSE  // Returns TRUE
+
+x = 1 > 2
+NOT x  // Returns TRUE
+```
 
 ## 4. Variables
 
