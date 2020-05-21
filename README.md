@@ -42,18 +42,18 @@ Strings are a data structure which contain one or more characters. Strings are d
 
 ### 2.4. Booleans
 
-Booleans are a binary data type meaning they have 1 of two possible values (true or false). Booleans should be use pascal case.
+Booleans are a binary data type meaning they have 1 of two possible values (true or false). Booleans should be use upper case.
 
 ```
 // Good
-True
-False
+TRUE
+FALSE
 
 // Bad
 true
 false
-TRUE
-FALSE
+True
+False
 ```
 
 ### 2.5. Tuples
