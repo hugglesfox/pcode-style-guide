@@ -1,4 +1,4 @@
-# The Non Definitive Guide to NickCode
+# The Non Definitive Guide to the Wonders of NickCode
 
 This is a living document which aims to be the best guide possible to the pseudocode flavour created by Dr Nick Patterson for SIT105 (which will be referred to as nickcode for the rest of the document). This document is not officially endorsed by Dr Patterson therefore **use at own risk** but with the amount of confusion around how nickcode and the ambiguity of the Assignment 3 marking rubric, we thought that a formal definition of nickcode was required. Inspiration for the following guide has been taken from Dr Patterson's Cloud practicals and lectures as well as the Python and Rust programming languages.
 
@@ -130,4 +130,4 @@ Indentaion
 
 It is not required to cite this document if you wish to reference it for your assignment 3 but if you appreciate the work we would kindly ask you to include the following sentence in your assignment:
 
-> The pseudocode provided has been created with reference to [The Non Definitive Guide to NickCode](https://github.com/hugglesfox/pcode-style-guide/tree/nickcode)
+> The pseudocode provided has been created with reference to [The Non Definitive Guide to the Wonders of NickCode](https://github.com/hugglesfox/pcode-style-guide/tree/nickcode)
