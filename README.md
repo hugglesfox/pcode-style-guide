@@ -120,6 +120,14 @@ Built in modules should be capitalised and do not use parenthesis to pass argume
 
 ### 7.1. DISPLAY
 
+The `DISPLAY` builtin writes text to the display or console.
+
+```
+DISPLAY "Hello World"
+```
+
+Will write `Hello World` to the console.
+
 ### 7.2. PRINT
 
 ### 7.3. READ
