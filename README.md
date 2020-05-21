@@ -116,7 +116,15 @@ Indentaion
 
 ## 7. Builtins
 
-Built in modules should be capitalised and do not use parenthesis to pass arguments unlike user defined modules.
+Built in modules should be capitalised and do not use parenthesis to pass arguments unlike user defined modules for an example
+
+```
+// Good
+DISPLAY "Hello World"
+
+// Bad
+DISPLAY("Hello World")
+```
 
 ### 7.1. DISPLAY
 
