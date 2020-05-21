@@ -58,13 +58,26 @@ False
 
 ### 2.5. Tuples
 
+Tuples are non mutable, comma separated lists defined by parenthesis. Tuple elements can be referenced using `tuple[i]` where `i` is the index of the element starting from 0. When defining a tuple always put a space after the comma and don't use extraneous spaces.
+
+```
+x = ("Hello", "World")
+x[0]  // Returns "Hello"
+
+// Don't defines tuples like this
+("Hello","World")  // Need space after comma
+( "Hello" , "World" )  // Too much white space
+```
+
 ### 2.6. Arrays
 
 ### 2.7. Hashmaps (Dictionaries)
 
 ### 2.8. A note on type casting
 
-Automatic.
+Type casting in nickcode is done transparently where required based on assumptions made about the type in the context of when it is used (this is a variation of pseudocode).
+
+For an example a string to integer conversion will be done when required, such as when a string containing a number and an integer is compared then the string of the number will be convert
 
 ## 3. Operators
 
