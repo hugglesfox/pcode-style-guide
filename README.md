@@ -134,7 +134,7 @@ The `DISPLAY` builtin writes a string to the display or console.
 DISPLAY "Hello World"
 ```
 
-Will write `Hello World` to the console.
+The above code will write `Hello World` to the console.
 
 ### 7.2. PRINT
 
@@ -144,11 +144,21 @@ The `PRINT` builtin writes a string to a printer. This is primarily used for int
 PRINT "Why are you using a printer in 2020?"
 ```
 
-Will print a page with the text `Why are you using a printer in 2020?`.
+The above code will print a page with the text `Why are you using a printer in 2020?`.
 
 ### 7.3. READ
 
+The `READ` builtin reads a string from either user input or a file.
+
+```
+file_content = READ "file_path"
+```
+
+Here the contents a readable thing (such as a file) called `file_path` is written to the variable `file_content`.
+
 ### 7.4. IF
+
+
 
 ### 7.5. ELSEIF
 
