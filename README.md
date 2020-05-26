@@ -34,8 +34,10 @@ This is a living document which aims to be the best guide possible to the pseudo
 	7.8. [WHILE](#78-WHILE)  
 	7.9. [DOWHILE](#79-DOWHILE)  
 	7.10. [DO](#710-DO)  
-	7.11. [OPEN/CLOSE](#711-OPENCLOSE)  
-	7.12. [Main()](#712-Main())  
+	7.11. [FOR](#711-FOR)  
+	7.12. [OPEN/CLOSE](#712-OPENCLOSE)  
+	7.13. [Main()](#713-Main())  
+	7.13. [WAIT](#714-WAIT)  
 8. [Objects?](#8-Objects)  
 9. [Citing](#9-Citing)  
 10. [Contributing](#10-Contributing)
@@ -437,21 +439,32 @@ So if 3 is inputted, `FIZZ` will be displayed, if 5 is inputted then `BUZZ` will
 
 ### 7.7. CASE
 
-> NOTE for writers: Do you think we could get away with ditching DOWHILE and DO for just WHILE and FOR?
-
 ### 7.8. WHILE
 
 ### 7.9. DOWHILE
 
 ### 7.10. DO
 
-### 7.11. OPEN/CLOSE
+### 7.11. FOR
 
-### 7.12. Main()
+### 7.12. OPEN/CLOSE
+
+### 7.13. Main()
+
+### 7.14. WAIT
+
+The WAIT builtin pauses the algorithm a specified amount of time in seconds.
+
+```
+WAIT 2
+```
+Will cause the program to wait 2 seconds before executing the next statment.
 
 ## 8. Objects?
 
 > NOTE for writers: Do we want objects? I'm thinking just to keep it flat like C.
+
+Phantom objects.
 
 ## 9. Citing
 
