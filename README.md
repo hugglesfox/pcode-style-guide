@@ -37,7 +37,8 @@ This is a living document which aims to be the best guide possible to the pseudo
 	7.11. [FOR](#711-FOR)  
 	7.12. [OPEN/CLOSE](#712-OPENCLOSE)  
 	7.13. [Main()](#713-Main())  
-	7.13. [WAIT](#714-WAIT)  
+	7.14. [WAIT](#714-WAIT)  
+	7.15. [ENUMERATE](#715-ENUMERATE)  
 8. [Objects?](#8-Objects)  
 9. [Citing](#9-Citing)  
 10. [Contributing](#10-Contributing)
@@ -459,6 +460,23 @@ The WAIT builtin pauses the algorithm a specified amount of time in seconds.
 WAIT 2
 ```
 Will cause the program to wait 2 seconds before executing the next statment.
+
+### 7.15. ENUMERATE
+
+The ENUMERATE builtin returns the current index in an iterable long with the element as a tuple. This is commonly used for knowing the position of a FOR loop.
+
+```
+FOR EACH i, a IN ("H", "e", "l", "l", "o")
+    DISPLAY i + " " + a
+```
+Will display the following output
+```
+0 H
+1 e
+2 l
+3 l
+4 o
+```
 
 ## 8. Objects?
 
